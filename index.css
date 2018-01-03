@@ -1,3 +1,47 @@
+/*Estilos para elementos basicos de la pagina */
+html {
+  min-height: 80%;
+  position: relative;
+}
+
 body {
-  background-color:#ffffff
+  margin: 0;
+  margin-bottom: 10px;
+  background-color:#000000;
+}
+
+p {
+  color: #FF8D40;
+}
+
+h1, h2, h3, h4, h5 {
+  /*Margins*/
+  color: white;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #000000;
+}
+
+/* Estilos para elementos especificos de la pagina */
+#title_main {
+
+  width: 100%;
+  min-height: 100px;
+  background-color: #000000;
+  font-family: consolas;
+
+  /* Margins */
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#main_nav {
+  margin-left: 20px;
 }
